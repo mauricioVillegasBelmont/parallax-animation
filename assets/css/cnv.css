@@ -1,0 +1,58 @@
+.bg-w{
+  background-color: #fff;
+  z-index: 1;
+}
+.bg-b{
+  z-index: 1;
+  background-color: #202020;
+}
+#scroll-video{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: -1;
+}
+#diagram{
+  position: relative;
+  overflow: hidden;
+  background-image: url('../images/bg.png');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  z-index: -1;
+}
+#animationContainer{
+  position: relative;
+}
+
+.outOfSection-top{
+  position: absolute !important;
+  top: -25vh !important;
+  bottom: auto !important;
+}
+.outOfSection-bottom{
+  position: absolute !important;
+  bottom: -25vh !important;
+  top: auto !important;
+}
+
+
+#svgAnim{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  -webkit-transition:all 0.5s ease;
+     -moz-transition:all 0.5s ease;
+      -ms-transition:all 0.5s ease;
+       -o-transition:all 0.5s ease;
+          transition:all 0.5s ease;
+}
+#svgAnim svg{
+  height: 100%;
+  width: auto;
+}
